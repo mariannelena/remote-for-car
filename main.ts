@@ -9,14 +9,7 @@ input.onButtonPressed(Button.A, function () {
     radio.sendNumber(1)
 })
 input.onSound(DetectedSound.Loud, function () {
-    basic.showLeds(`
-        # . . . #
-        . # . # .
-        . . # . .
-        . # . # .
-        # . . . #
-        `)
-    radio.sendNumber(5)
+	
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showLeds(`
@@ -47,6 +40,16 @@ input.onGesture(Gesture.Shake, function () {
         . . # . .
         `)
     radio.sendNumber(4)
+})
+input.onLogoEvent(TouchButtonEvent.Touched, function () {
+    basic.showLeds(`
+        # . . . #
+        . # . # .
+        . . # . .
+        . # . # .
+        # . . . #
+        `)
+    radio.sendNumber(5)
 })
 radio.setGroup(1)
 basic.forever(function () {

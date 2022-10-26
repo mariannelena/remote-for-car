@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="~ci2^AGCNVda6yU+8`p@" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="qL+NAoq1`]/VC6R;Ml}7"><value name="ID"><shadow type="math_number_minmax" id="PgH9}r~R-bJ7zW(-wJSh"><mutation min="0" max="255" label="Id" precision="0"/><field name="SLIDER">1</field></shadow></value></block></statement></block><block type="device_forever" id="vo.wz*:/kC^P|}H)iR;r" x="205" y="0"/><block type="device_gesture_event" id="u{dVkNh.=a.wyi1aQdCt" x="336" y="193"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id=",)rPuZ*tjfvCPE-X;4q^"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="~ci2^AGCNVda6yU+8`p@" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id="qL+NAoq1`]/VC6R;Ml}7"><value name="ID"><shadow type="math_number_minmax" id="PgH9}r~R-bJ7zW(-wJSh"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">1</field></shadow></value></block></statement></block><block type="device_forever" id="vo.wz*:/kC^P|}H)iR;r" x="205" y="0"></block><block type="device_gesture_event" id="u{dVkNh.=a.wyi1aQdCt" x="336" y="193"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id=",)rPuZ*tjfvCPE-X;4q^"><field name="LEDS">`
         . . # . . 
         . . # . . 
         # . # . # 
@@ -22,7 +22,7 @@
         # . # . # 
         . . # . . 
         . . # . .
-        `</field><next><block type="radio_datagram_send" id="nBb`6nO7m^s[^{*A51Z}"><value name="value"><shadow type="math_number" id="nm,KsRU{t;]I^CB{h-j]"><field name="NUM">3</field></shadow></value></block></next></block></statement></block><block type="input_on_sound" id="@TMkv;5:XuSFB:Ys6mVu" x="36" y="1003"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="device_show_leds" id="8x13gJhzvyV~Z7[~OyS6"><field name="LEDS">`
+        `</field><next><block type="radio_datagram_send" id="nBb`6nO7m^s[^{*A51Z}"><value name="value"><shadow type="math_number" id="nm,KsRU{t;]I^CB{h-j]"><field name="NUM">3</field></shadow></value></block></next></block></statement></block><block type="input_on_sound" id="@TMkv;5:XuSFB:Ys6mVu" x="36" y="1003"><field name="sound">DetectedSound.Loud</field></block><block type="input_logo_event" id="(TTZ}Q),~/ejgW}*=[5:" x="243" y="1160"><field name="action">TouchButtonEvent.Touched</field><statement name="HANDLER"><block type="device_show_leds" id="8x13gJhzvyV~Z7[~OyS6"><field name="LEDS">`
         # . . . # 
         . # . # . 
         . . # . . 
